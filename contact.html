@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
-    <title>Contact</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Wigington</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/115a8e12f0.js" crossorigin="anonymous"></script>
+    <title>Contact Me</title>
   </head>
   <body>
-    <div id='navbar'>
-      <div id='myDIV'>
-        <a href="index.html"><button class = 'btn'>Home</button></a>
-        <a href="family.html"><button class = 'btn'>Family</button></a>
-        <a href="career.html"><button class = 'btn'>Career</button></a>
-        <a href="hobbies.html"><button class = 'btn'>Hobbies</button></a>
-        <a href="contact.html"><button class = 'btn'>Contact</button></a>
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html"><i class="fa-sharp fa-solid fa-house"></i></a>
+        <ul class="nav-menu">
+          <li class="nav-item"> <a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"> <a href="skills.html" class="nav-link">Skills</a></li>
+          <li class="nav-item"> <a href="hobbies.html" class="nav-link">Hobbies</a></li>
+          <li class="nav-item"> <a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="contact-me">
+      <h1 style = 'font-family: Montserrat, sans-serif; margin:0;'>Contact Me</h1>
+      <h2>Want to get in contact?</h2>
+      <p class="contactmessage">Click on the LinkedIn, Twitter, or Gmail icon to send me a message.</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/jonathan-wigington/"><img src="images/linkedin.png" alt="LinkedIn Icon"></a>
+        <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter Icon"></a>
+        <a href="mailto:jonwig17@gmail.com"><img src="images/google.png" alt="Gmail Icon"></a>
       </div>
     </div>
-    <h3>Contact Me!</h3>
-    <ul>
-      <li>Phone Number</li>
-      <li>Email</li>
-      <li><a href="https://www.linkedin.com/in/jonathan-wigington/">LinkedIn</a></li>
-    </ul>
-    <hr size='3' noshade>
-    <form action="mailto:jonwig17@gmail.com" method="post" enctype="text/plain">
-      <label>Your Name:</label>
-      <input type="text" name="Name" value=""><br>
-      <label>Your Email:</label>
-      <input type="email" name="Email" value=""><br>
-      <label>Your Message:</label><br>
-      <textarea name="Message" rows="10" cols="30"></textarea><br>
-      <input type="submit" name="">
-    </form>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/jonathan-wigington/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="mailto:jonwig17@gmail.com">Email</a>
+      <p class="bottompara" style="color:white; margin-bottom:0;">© 2022 Jonathan Wigington</p>
+    </div>
   </body>
+  <script src="main.js"></script>
 </html>
